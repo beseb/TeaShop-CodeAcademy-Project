@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 18px;
+}
+h5{
+    font-size: 16px;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid seashell;
+    z-index: 999;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+nav .logo {
+    float: left;
+    margin-top: auto;
+    margin-bottom: -10px;
+    opacity: 1;
+
+}
+
+nav ul {
+    float: right;
+    margin-bottom: -1px;
+    opacity: 1;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 10px;
+    
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+body {
+    padding-top: 89px;
+}
+
+.mission {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    margin-top: 89px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/img-mission-background.png);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    /* Ajout de cette règle */
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    max-width: 100%;
+
+}
+.TeaOfTheMonth{
+    position: relative;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.TeaContainer {
+    display: flex;
+    text-align: center;
+    
+}
+
+.TeaContainer > div {
+    flex: 1;
+    margin-right: 10px;
+}
+.text{
+    margin-top: 10px;
+}
+.Locations {
+    height: 500px;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/img-locations-background.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.TitleLocations {
+    text-align: center;
+
+
+    padding-top: 20px;
+    margin-bottom: 5px;
+    
+
+}
+
+.LocationsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px; /* Ajout d'une marge au-dessus du bloc */
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Downtown,
+.EastBayside,
+.Oakdale {
+    flex: 1;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: black;
+    margin-bottom: 15px; /* Ajout d'une marge en dessous de chaque bloc */
+    text-align: center;
+}
+.Contact{
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    margin-left: 20px;
+    text-align: left;
+}
